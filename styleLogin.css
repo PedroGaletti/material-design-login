@@ -1,0 +1,832 @@
+*, *:before, *:after{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*STYLE BODY, HTML*/
+body,html{
+    font-family: Roboto;
+    height: 100%;
+    background: url("imagens/v.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*FIM BODY, HTML*/
+
+/*TRANSITION CONTAINER*/
+.transition-container{
+    height: 100%;
+    -webkit-animation: entra .7s ease;
+    -moz-animation: entra .7s ease;
+    -o-animation: entra .7s ease;
+    animation: entra .7s ease;
+}
+@-o-keyframes entra {
+    0%{
+        -o-transform: translateX(-100%);
+    }
+    100% {
+        -o-transform: translateX(0);
+    }
+}
+@-ms-keyframes entra {
+    0%{
+        -ms-transform: translateX(-100%);
+    }
+    100%{
+        -ms-transform: translateX(0);
+    }
+}
+@-moz-keyframes entra {
+    0%{
+        -moz-transform: translateX(-100%);
+    }
+    100%{
+        -moz-transform: translateX(0);
+    }
+}
+@-webkit-keyframes entra {
+    0%{
+        -webkit-transform: translateX(-100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+
+    }
+}
+@keyframes entra {
+    0%{
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/*FIM TRANSITION CONTAINER*/
+
+/*CONTAINER*/
+.container{
+    top:50%;
+    position: relative;
+    transform: translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+}
+/*FIM CONTAINER*/
+
+/*DIV CONTAINER-CARD*/
+.container-card{
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 300px;
+    min-width:260px;
+    min-height:144px;
+    max-height:218px;
+    position: relative;
+    background: #fff;
+    padding:20px;
+}
+#card-two{
+    display:none;
+}
+#div-word-Name{
+    display: none;
+}
+/*FIM DIV CONTAINER-CARD*/
+
+/*MENSAGEM EFETUE LOGIN*/
+.message-Login{
+    cursor:default;
+    text-align: center;
+    margin: 0 auto;
+    width: 142px;
+    position: relative;
+    bottom:20px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.p-message-Login{
+    color: #fff;
+    font-family:Roboto;
+    font-size: 18px;
+}
+/*FIM MENSAGEM EFETUE LOGIN*/
+
+[guardaCardOne]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    animation-delay: .1s;
+
+    -webkit-animation: guardaCardOne .2s ease;
+    -moz-animation: guardaCardOne .2s ease;
+    -o-animation: guardaCardOne .2s ease;
+    animation: guardaCardOne .2s ease;
+}
+[apareceCardTwo]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    animation-delay: .1s;
+
+    -webkit-animation: apareceCardTwo .2s ease;
+    -moz-animation: apareceCardTwo .2s ease;
+    -o-animation: apareceCardTwo .2s ease;
+    animation: apareceCardTwo .2s ease;
+}
+[apareceCardOne]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    animation-delay: .1s;
+
+    -webkit-animation: apareceCardOne .2s ease;
+    -moz-animation: apareceCardOne .2s ease;
+    -o-animation: apareceCardOne .2s ease;
+    animation: apareceCardOne .2s ease;
+}
+[guardaCardTwo]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -o-animation-delay: .1s;
+    animation-delay: .1s;
+
+    -webkit-animation: guardaCardTwo .2s ease;
+    -moz-animation: guardaCardTwo .2s ease;
+    -o-animation: guardaCardTwo .2s ease;
+    animation: guardaCardTwo .2s ease;
+}
+
+@-o-keyframes guardaCardOne{
+    0%{
+        -o-transform: translateX(0);
+    }
+    100%{
+        -o-transform: translateX(-100%);
+
+    }
+}
+@-moz-keyframes guardaCardOne{
+    0%{
+        -moz-transform: translateX(0);
+    }
+    100%{
+        -moz-transform: translateX(-100%);
+    }
+}
+@-ms-keyframes guardaCardOne{
+    0%{
+        -ms-transform: translateX(0);
+    }
+    100%{
+        -ms-transform: translateX(-100%);
+    }
+}
+@-webkit-keyframes guardaCardOne{
+    0%{
+        -webkit-transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(-100%);
+    }
+}
+@keyframes guardaCardOne{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@-o-keyframes apareceCardTwo {
+    0%{
+        -o-transform: translateX(100%);
+    }
+    100%{
+        -o-transform: translateX(0);
+    }
+}
+@-moz-keyframes apareceCardTwo {
+    0%{
+        -moz-transform: translateX(100%);
+    }
+    100%{
+        -moz-transform: translateX(0);
+    }
+}
+@-ms-keyframes apareceCardTwo {
+    0%{
+        -ms-transform: translateX(100%);
+    }
+    100%{
+        -ms-transform: translateX(0);
+    }
+}
+@-webkit-keyframes apareceCardTwo {
+    0%{
+        -webkit-transform: translateX(100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes apareceCardTwo {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@-o-keyframes apareceCardOne {
+    0%{
+        -o-transform: translateX(-100%);
+    }
+    100%{
+        -o-transform: translateX(0);
+    }
+}
+@-moz-keyframes apareceCardOne {
+    0%{
+        -moz-transform: translateX(-100%);
+    }
+    100%{
+        -moz-transform: translateX(0);
+    }
+}
+@-ms-keyframes apareceCardOne {
+    0%{
+        -ms-transform: translateX(-100%);
+    }
+    100%{
+        -ms-transform: translateX(0);
+    }
+}
+@-webkit-keyframes apareceCardOne {
+    0%{
+        -webkit-transform: translateX(-100%);
+    }
+    100%{
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes apareceCardOne {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@-o-keyframes guardaCardTwo {
+    0%{
+        -o-transform: translateX(0);
+    }
+    100%{
+        -o-transform: translateX(100%);
+    }
+}
+@-moz-keyframes guardaCardTwo {
+    0%{
+        -moz-transform: translateX(0);
+    }
+    100%{
+        -moz-transform: translateX(100%);
+    }
+}
+@-ms-keyframes guardaCardTwo {
+    0%{
+        -ms-transform: translateX(0);
+    }
+    100%{
+        -ms-transform: translateX(100%);
+    }
+}
+@-webkit-keyframes guardaCardTwo {
+    0%{
+        -webkit-transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(100%);
+    }
+}
+@keyframes guardaCardTwo {
+    0%{
+        transform: translateX(0);
+        transform-origin: left;
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+[aumenta]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation: aumenta .2s ease;
+    -moz-animation: aumenta .2s ease;
+    -o-animation: aumenta .2s ease;
+    animation: aumenta .2s ease;
+}
+[diminui]{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation: diminui .2s ease;
+    -moz-animation: diminui .2s ease;
+    -o-animation: diminui .2s ease;
+    animation: diminui .2s ease;
+}
+
+@-o-keyframes aumenta {
+    0%{
+        height: 145px;
+    }
+    100%{
+        height: 215px;
+    }
+}
+@-moz-keyframes aumenta {
+    0%{
+        height: 145px;
+    }
+    100%{
+        height: 215px;
+    }
+}
+@-ms-keyframes aumenta {
+     0%{
+         height: 145px;
+     }
+     100%{
+         height: 215px;
+     }
+ }
+@-webkit-keyframes aumenta {
+    0%{
+        height: 145px;
+    }
+    100%{
+        height: 215px;
+    }
+}
+@keyframes aumenta {
+    0%{
+        height: 145px;
+    }
+    100%{
+        height: 215px;
+    }
+}
+
+@-o-keyframes diminui {
+    0%{
+        height: 215px;
+    }
+    100%{
+        height:145px;
+    }
+}
+@-moz-keyframes diminui {
+    0%{
+        height: 215px;
+    }
+    100%{
+        height:145px;
+    }
+}
+@-ms-keyframes diminui {
+    0%{
+        height: 215px;
+    }
+    100%{
+        height:145px;
+    }
+}
+@-webkit-keyframes diminui {
+    0%{
+        height: 215px;
+    }
+    100%{
+        height:145px;
+    }
+}
+@keyframes diminui {
+    0%{
+        height: 215px;
+    }
+    100%{
+        height:145px;
+    }
+}
+
+/*DIV INPUT EMAIL*/
+.div-input-login{
+    padding-top: 16px;
+    position: relative;
+    margin-bottom:25px;
+}
+/*FIM DIV INPUT EMAIL*/
+
+/*LABEL INPUT-LOGIN*/
+.label-Login{
+    color:#d2d2d2;
+    pointer-events: none;
+    position: absolute;
+    top:16px;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+
+}
+.label-Login:after{
+    content: '  *';
+    color: #cf4f23;
+    margin-left: 2px;
+}
+/*FIM LABEL INPUT-LOGIN*/
+
+/*INPUT-LOGIN*/
+.inp-Login{
+    background: transparent;
+    width:100%;
+    height: 32px;
+    border:none;
+    outline:none;
+    color:#000;
+    border-bottom:1px solid #d2d2d2;
+    display: block;
+    font-size:15px;
+}
+.inp-Login:focus ~ .label-Login,
+.inp-Login[valid] ~ .label-Login{
+    top:-15px;
+    font-size: 12px;
+    color: #767676;
+}
+.inp-Login:valid ~ .label-Login,
+.inp-Login[valid] ~ .label-Login{
+    /*color: #484848;*/
+
+
+}
+.inp-Login:valid{
+    border-bottom: 1px solid #484848;
+}
+.inp-Login:valid ~ .span-Input:before,
+.inp-Login:valid ~ .span-Input:after{
+    background: #38383d !important;
+}
+[error]:valid ~ .span-Input:before,
+[error]:valid ~ .span-Input:after {
+    background: red !important;
+}
+[error]{
+    border-bottom:1px solid red !important;
+}
+.inp-Login:focus ~ .span-Input:before,
+.inp-Login:focus ~ .span-Input:after{
+    width:50%;
+}
+/*FIM INPUT-LOGIN*/
+
+/*SPAN INPUT-LOGIN*/
+.span-Input{
+    position: relative;
+    display: block;
+    width:100%;  }
+.span-Input:before, .span-Input:after{
+    content:'';
+    height: 2px;
+    width:0;
+    bottom:-1px;
+    position: absolute;
+    /*background: #767676;*/
+
+    transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+}
+[error]:before, [error]:after{
+    background: none !important;
+}
+.span-Input:before{
+    left:50%;
+}
+.span-Input:after{
+    right: 50%;
+}
+/*FIM SPAN INPUT-LOGIN*/
+
+/*BUTTON*/
+.btn-login[disabled]{
+    cursor:default;
+    background-color: rgb(186, 192, 199);
+    color: #fff;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.btn-login[disabled]:hover{
+    background-color: rgb(186, 192, 199);
+    color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.btn-login {
+    position: relative;
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    color:#fff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    background: #484848;
+    cursor: pointer;
+    overflow: hidden;
+
+    -webkit-border-radius:2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select:none;
+    -ms-user-select: none;
+
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.2);
+    -o-box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.2);
+}
+.btn-login:focus, .btn-login:hover{
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.16), 0 3px 5px rgba(0, 0, 0, 0.23);
+}
+.ripple {
+    position: absolute;
+    background: rgba(0,0,0,.25);
+    pointer-events: none;
+
+    -webkit-border-radius:100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.ripple.show {
+    -o-animation:ripple .45s ease-out;
+    -moz-animation:ripple .45s ease-out;
+    -webkit-animation:ripple .45s ease-out;
+    animation: ripple .45s ease-out;
+}
+
+@-o-keyframes ripple {
+    to {
+        -o-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-ms-keyframes ripple {
+    to {
+        -ms-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes ripple {
+    to {
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes ripple {
+    to {
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+
+    }
+}
+@keyframes ripple {
+    to {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+/*FIM BUTTON*/
+
+/*DIVS LETRA DO NOME && NOME DO USUARIO*/
+.div-word-Name, .div-Name-User{
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select:none;
+    -ms-user-select: none;
+}
+.div-Name-User{
+    top:-5px;
+    position: relative;
+    margin: 0  0 10px;
+
+}
+/*FIM DIVS LETRA DO NOME && NOME DO USUARIO*/
+
+/*DIV LETRA DO NOME*/
+.div-word-Name{
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation: aparecer .1s ease;
+    -moz-animation: aparecer .1s ease;
+    -o-animation: aparecer .1s ease;
+    animation: aparecer .1s ease;
+
+    margin: 0 auto;
+    position: absolute;
+    left:0;
+    right:0;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+}
+@-o-keyframes aparecer{
+    0%{
+        -o-transform: scale(0);
+        -o-transform-origin: bottom left;
+    }
+    100%{
+        -o-transform: scale(1);
+    }
+}
+@-ms-keyframes aparecer {
+    0%{
+        -ms-transform: scale(0);
+        -ms-transform-origin: bottom left;
+    }
+    100%{
+        -ms-transform: scale(1);
+    }
+}
+@-moz-keyframes aparecer {
+    0%{
+        -moz-transform: scale(0);
+        -moz-transform-origin: bottom left;
+    }
+    100%{
+        -moz-transform: scale(1);
+    }
+
+}
+@-webkit-keyframes aparecer {
+    0%{
+        -webkit-transform: scale(0);
+        -webkit-transform-origin: bottom left;
+    }
+    100%{
+        -webkit-transform: scale(1);
+    }
+}
+@keyframes aparecer {
+    0%{
+
+        transform: scale(0);
+        transform-origin:bottom left;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.word-name{
+    text-transform: uppercase;
+    font-size: 34px;
+    outline: none;
+    width: 80px;
+    height: 80px;
+    font-weight: normal;
+    color:white;
+
+    -webkit-box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.18), 0 7px 8px rgba(0, 0, 0, 0.20);
+    -moz-box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.18), 0 7px 8px rgba(0, 0, 0, 0.20);
+    -o-box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.18), 0 7px 8px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.18), 0 7px 8px rgba(0, 0, 0, 0.20);
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: none;
+}
+/*FIM DIV LETRA DO NOME*/
+
+/*LABEL NOME DO USUARIO*/
+.label-name-user{
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #000;
+    position: relative;
+    pointer-events: none;
+}
+/*FIM LABEL NOME DO USUARIO*/
+
+/*BOTAO VOLTAR CARD TWO*/
+.icon-back{
+    position: relative;
+    top: -5px;
+    width:36px;
+    height:36px;
+}
+.back{
+    cursor:pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select:none;
+    -ms-user-select: none;
+}
+/*FIM BOTAO VOLTAR CARD TWO*/
+
+/*ERROREMAIL*/
+.div-errorEmail{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor:default;
+    position: relative;
+    top:-20px;
+    font-size:11px;
+    color:red;
+}
+.div-errorEmail p {
+    display:none;
+}
+/*FIM ERROREMAIL*/
